@@ -1,0 +1,37 @@
+name: doset
+description: A wardrobe management app that helps users organize outfits and track weather-based clothing choices.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.4.2
+
+  image_picker: ^1.0.7
+  firebase_storage: ^11.6.7
+
+  table_calendar: ^3.0.9
+
+  # 상태관리
+  provider: ^6.1.1
+
+  # Firebase 관련 (필요 시)
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.17.6
+  cloud_firestore: ^4.15.6
+
+  # 기타 UI 개선용
+  flutter_local_notifications: ^15.1.0
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.2.6  # 날씨 웹뷰용
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
