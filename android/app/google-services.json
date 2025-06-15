@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "776732284930",
+    "project_id": "doset-94180",
+    "storage_bucket": "doset-94180.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776732284930:android:ef466922687ff4b8852f1b",
+        "android_client_info": {
+          "package_name": "com.yu.doset"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPvwiskHFqxmgRNiSHqI2G3AQBIymD6O4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
